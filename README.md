@@ -1,0 +1,1 @@
+I created a PID controller to control the angle of a beam to center a ball that spawns at a random initial position. The goal of this project is to cement and develop my coding skills and understanding of what I have learned. 
