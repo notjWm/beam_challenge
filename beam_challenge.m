@@ -19,9 +19,9 @@ theta_vec = zeros(total_t/dt, 1);
 error = zeros(total_t/dt, 1);
 
 % Initial conditions
-initial_x = 10; % m (initial position)
+initial_x = rand * beam_l; % m (initial position)
 x_vec(1) = initial_x;
-desired_x = 0; % m (target position)
+desired_x = rand * beam_l; % m (target position)
 error(1) = desired_x - initial_x;
 
 % Checks to see if desired location has been updated
