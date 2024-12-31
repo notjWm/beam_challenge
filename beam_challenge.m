@@ -14,6 +14,7 @@ time_vec = zeros(total_t/dt, 1);
 x_vec = zeros(total_t/dt, 1);
 v_vec = zeros(total_t/dt, 1);
 theta_vec = zeros(total_t/dt, 1);
+theta_vec(1) = 0; % smoothes out the curves
 % theta_vec(1) = deg2rad(rand * 45); % if you wanted to start with a random
 % angle from 0 degrees to 45 degrees
 error = zeros(total_t/dt, 1);
